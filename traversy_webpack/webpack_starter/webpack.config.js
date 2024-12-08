@@ -9,6 +9,17 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "[name].[contenthash].js",
+    clean: true, // Keep only latest file
+  },
+  devServer: {
+    static: {
+      directory: path.resolve(__dirname, "dist"),
+    },
+    port: 3000,
+    open: true, // Opens browser automatically when I `npm run dev`
+    hot: true,
+    compress: true,
+    historyApiFallback: true,
   },
   module: {
     rules: [
