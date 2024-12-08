@@ -1,5 +1,4 @@
-import { v4 } from "uuid";
 import generateJoke from "./generateJoke";
+import "./styles/main.scss";
 
-console.log(v4());
 console.log(generateJoke());
