@@ -1,5 +1,5 @@
 import logo from "./175b85183ecedb529e14.jpg";
-import icon from "./e240f8157634d33a9757.ico";
+// import icon from "./e240f8157634d33a9757.ico";
 import "./App.css";
 
 function App() {
